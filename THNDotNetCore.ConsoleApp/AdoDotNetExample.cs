@@ -55,7 +55,9 @@ namespace THNDotNetCore.ConsoleApp
             cmd.Parameters.AddWithValue("@BlogTitle", title);
             cmd.Parameters.AddWithValue("@BlogAuthor", author);
             cmd.Parameters.AddWithValue("@BlogContent", content);
-            int result = cmd.ExecuteNonQuery(); 
+            int result = cmd.ExecuteNonQuery();
+            string message = result > 0 ? "Saving successful" : "Saving failed";
+            Console.WriteLine(message);
             connection.Close();
         }
     }
