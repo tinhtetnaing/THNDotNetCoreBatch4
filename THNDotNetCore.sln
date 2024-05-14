@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{8272612F-95C7-42A1-A52A-7BE7FE89CCCB}"
 	ProjectSection(SolutionItems) = preProject
 		README.MD = README.MD
+		THNDotNetCore.sql = THNDotNetCore.sql
 	EndProjectSection
 EndProject
 Global
