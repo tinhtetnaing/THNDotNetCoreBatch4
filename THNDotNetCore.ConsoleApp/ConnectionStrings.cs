@@ -14,7 +14,8 @@ namespace THNDotNetCore.ConsoleApp
             DataSource = "DESKTOP-FRO936S", //server name
             InitialCatalog = "MyDB", //database name
             UserID = "sa", //user name
-            Password = "sa@123" //password
+            Password = "sa@123", //password
+            TrustServerCertificate = true
         };
     }
 }
